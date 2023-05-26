@@ -1,0 +1,139 @@
+.signin {
+  margin: 20px auto;
+  width: 90%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.signin .left {
+  width: 40%;
+  height: 500px;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+.signin .left header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  text-indent: 2px;
+}
+.signin .left header h3 {
+  font-weight: 200;
+}
+.signin .left form {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signin .left form input {
+  width: 99%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-indent: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.signin .left .btn {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.signin .left .btn button {
+  width: calc(50% - 10px);
+  height: 60px;
+  background-color: aquamarine;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+.signin .left .btn .left {
+  background-color: black;
+}
+.signin .left .btn .left:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.signin .left .btn .right {
+  background-color: #357AE8;
+}
+.signin .left .btn .right:hover {
+  color: black;
+}
+.signin .right {
+  width: 40%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.signin .right header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  text-indent: 2px;
+}
+.signin .right header h3 {
+  font-weight: 200;
+}
+.signin .right form {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signin .right form input {
+  width: 99%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-indent: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.signin .right .btn {
+  width: 50%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  text-transform: uppercase;
+  border: none;
+}
+.signin .right .btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}/*# sourceMappingURL=style.module.css.map */
